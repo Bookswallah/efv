@@ -8,6 +8,11 @@ powered by</code> <b>{}</b>
 Self coded bot by Books wallah 
 
 Growing Future of India🇮🇳
+
+[
+        InlineKeyboardButton(
+            text="➕️ Add me to your chat ➕️", url=f"https://t.me/{context.bot.username}?startgroup=true"),
+    ],
     """
     USERS_LIST = "<b>Total:</b>\n\nSubscribers - {}\nBlocked / Deleted - {}"
     WAIT_MSG = "<b>Please Wait...</b>"
